@@ -1,0 +1,165 @@
+/* .wrapper {
+	margin: 100px;
+	margin-left: 150px;
+}
+
+.header h3 {
+	color: var(--pure-white, #fff);
+	font-family: Inter;
+	font-size: 54px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 138.023%; 
+}
+
+.contentWrapper {
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+.faqDescription p {
+	width: 557px;
+	color: var(--pure-white, #fff);
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 162.523%; 
+	opacity: 0.3;
+}
+
+.faqQuestion {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	justify-content: space-between;
+	height: 385px;
+}
+
+.faqQuestion h5 {
+	color: var(--pure-white, #fff);
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px; 
+	width: 399px;
+	height: 24px;
+}
+
+.faqQuestion p {
+	color: var(--pure-white, #fff);
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 162.523%; 
+	width: 557px;
+	opacity: 0.3;
+} */
+
+/* Common styles for all screen sizes, including big devices */
+.wrapper {
+    margin: 100px;
+    margin-left: 150px;
+  }
+  
+  .header h3 {
+    color: var(--pure-white, #fff);
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138.023%;
+  }
+  
+  .contentWrapper {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+  }
+  
+  .faqDescription p {
+    width: 557px;
+    color: var(--pure-white, #fff);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.523%;
+    opacity: 0.3;
+  }
+  
+  .faqQuestion {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    height: 385px;
+  }
+  
+  .faqQuestion h5 {
+    color: var(--pure-white, #fff);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    width: 399px;
+    height: 24px;
+  }
+  
+  .faqQuestion p {
+    color: var(--pure-white, #fff);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.523%;
+    width: 557px;
+    opacity: 0.3;
+  }
+  
+  /* Media query for small devices, e.g., mobile phones */
+  @media (max-width: 768px) {
+    .wrapper {
+      margin: 20px;
+      margin-left: 20px; /* Adjust the left margin for small screens */
+    }
+  
+    .header h3 {
+      font-size: 40px; /* Decrease the font size for small screens */
+    }
+  
+    .contentWrapper {
+      display: flex;
+      flex-direction: column; /* Adjust the layout for smaller screens */
+      margin-top: 20px;
+    }
+  
+    .faqDescription p {
+      width: auto; /* Remove the fixed width */
+      font-size: 16px; /* Decrease the font size for small screens */
+      opacity: 0.7; /* Increase the opacity for better readability */
+    }
+  
+    .faqQuestion {
+      display: flex;
+      flex-direction: column; /* Adjust the layout for smaller screens */
+      height: auto; /* Remove the fixed height */
+    }
+  
+    .faqQuestion h5 {
+      font-size: 24px; /* Decrease the font size for small screens */
+      width: auto; /* Remove the fixed width */
+      height: auto; /* Remove the fixed height */
+    }
+  
+    .faqQuestion p {
+      font-size: 16px; /* Decrease the font size for small screens */
+      width: auto; /* Remove the fixed width */
+      opacity: 0.7; /* Increase the opacity for better readability */
+    }
+  }
+  

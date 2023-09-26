@@ -1,0 +1,137 @@
+/*
+.wrapper {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	padding: 75px;
+}
+
+.introHeading h2 {
+	color: var(--pure-white, #fff);
+	font-family: Inter;
+	font-size: 54px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 161.523%; 
+	width: 387px;
+	height: 174px;
+}
+
+.vl {
+	width: 1px;
+	height: 206px;
+	background: #6a6a6a;
+}
+
+introType h3 {
+	color: var(--pure-white, #fff);
+	text-align: center;
+	font-family: Inter;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 162.523%; 
+	width: 249px;
+	height: 52px;
+}
+
+.introType p {
+	color: var(--pure-white, #fff);
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 162.523%; 
+
+	width: 475px;
+	height: 87px;
+	opacity: 0.3;
+}
+ */
+ /* Styles for large screens */
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 75px;
+  }
+  
+  .introHeading h2 {
+    color: var(--pure-white, #fff);
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 161.523%; /* 87.222px */
+    width: 387px;
+    height: 174px;
+  }
+  
+  .vl {
+    width: 1px;
+    height: 206px;
+    background: #6a6a6a;
+  }
+  
+  /* Add a period before introType to make it a class selector */
+  .introType h3 {
+    color: var(--pure-white, #fff);
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 162.523%; /* 52.007px */
+    width: 249px;
+    height: 52px;
+  }
+  
+  /* Add a period before introType to make it a class selector */
+  .introType p {
+    color: var(--pure-white, #fff);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.523%; /* 29.254px */
+    width: 475px;
+    height: 87px;
+    opacity: 0.3;
+  }
+  
+  /* Media query for small screens (e.g., mobile devices) */
+  @media (max-width: 768px) {
+    .wrapper {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center;
+      padding: 20px; /* Reduce padding for smaller screens */
+    }
+  
+    .introHeading h2 {
+      font-size: 36px; /* Adjust font size for smaller screens */
+      width: auto; /* Allow text to wrap */
+      height: auto;
+    }
+  
+    .vl {
+      display: none; /* Hide the vertical line on small screens */
+    }
+  
+    /* Add a period before introType to make it a class selector */
+    .introType h3 {
+      font-size: 24px; /* Adjust font size for smaller screens */
+      width: auto; /* Allow text to wrap */
+      height: auto;
+    }
+  
+    /* Add a period before introType to make it a class selector */
+    .introType p {
+      font-size: 16px; /* Adjust font size for smaller screens */
+      width: auto; /* Allow text to wrap */
+      height: auto;
+      opacity: 1; /* Remove opacity for better readability */
+    }
+  }
+  

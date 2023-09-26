@@ -1,0 +1,138 @@
+/* .wrapper {
+	text-align: center;
+	width: 1235px;
+	margin-top: 150px;
+	margin-bottom: 100px;
+	margin-left: 125px;
+	margin-right: 125px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.header h3 {
+	color: var(--pure-white, #fff);
+	font-family: Inter;
+	font-size: 54px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 143.023%;
+	width: 374px;
+	height: 154px;
+}
+
+.btnContainer {
+	display: flex;
+}
+
+.leftArrowBtn {
+	width: 80px;
+	height: 80px;
+	flex-shrink: 0;
+	background-color: #e6e6e6;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 40px;
+	border: 1px solid #e6e6e6;
+}
+
+.rightArrowBtn {
+	width: 80px;
+	height: 80px;
+	flex-shrink: 0;
+	background-color: #e3b748;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #e3b748;
+}
+
+.clientWrapper {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+} */
+/* Common styles for all screen sizes */
+.wrapper {
+    text-align: center;
+    width: 100%;
+    max-width: 1235px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 125px;
+    margin-right: 125px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .header h3 {
+    color: var(--pure-white, #fff);
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 143.023%;
+    width: 374px;
+    height: 154px;
+  }
+  
+  .btnContainer {
+    display: flex;
+  }
+  
+  .leftArrowBtn,
+  .rightArrowBtn {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    background-color: #e6e6e6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e6e6e6;
+  }
+  
+  .rightArrowBtn {
+    background-color: #e3b748;
+    border: 1px solid #e3b748;
+  }
+  
+  .clientWrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Media query for small devices, e.g., mobile phones */
+  @media (max-width: 768px) {
+    .header h3 {
+      font-size: 32px; /* Adjust font size for smaller screens */
+    }
+    .leftArrowBtn,
+    .rightArrowBtn {
+      width: 60px; /* Adjust button size for smaller screens */
+      height: 60px; /* Adjust button size for smaller screens */
+      margin-right: 20px; /* Adjust margin for spacing */
+    }
+    .clientWrapper {
+      margin-top: 50px; /* Adjust margin-top for smaller screens */
+      margin-bottom: 50px; /* Adjust margin-bottom for smaller screens */
+    }
+  }
+  
+
